@@ -269,7 +269,7 @@ body{
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
     -webkit-transition:all 0.5s ease 0s;
     transition:all 0.5s ease 0s;
-    transform: scale(1.15);
+    transform: scale(1.05);
   }
   .item:hover .item {
     transform: scale(1.05);
