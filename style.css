@@ -37,10 +37,7 @@ body{
     border-left: .4rem solid #002e5f;
 }
 
-.faq .heading::before, .faq .heading::after{
-    border-top: .4rem solid #00bfff;
-    border-left: .4rem solid #00bfff;
-}
+
 
 .heading::before,  .section-head h1::before, .section-head-1 h4::before{
     top: 5.8rem;
@@ -155,6 +152,10 @@ body{
     top: 0;
     left: 0;
 }
+
+
+
+
 
 .header .navbar ul{
     list-style-type: none;
@@ -336,45 +337,6 @@ body{
 
 
 
-
-
-.counters {
-	background-image: url(../images/img2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-	color: #fff;
-	padding: 40px 20px;
-}
-
-.counters .container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 30px;
-	text-align: center;
-}
-
-.counters i {
-	color: #fff;
-	margin-bottom: 5px;
-}
-
-.counters .counter {
-	font-size: 45px;
-	margin: 10px 0;
-}
-
-@media (max-width: 700px) {
-	.counters .container {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.counters .container > div:nth-of-type(1),
-	.counters .container > div:nth-of-type(2) {
-		border-bottom: 1px lightskyblue solid;
-		padding-bottom: 20px;
-	}
-}
 
 .section-head-1{
     margin-bottom: 60px;
@@ -894,102 +856,10 @@ body{
             }
         }
 
-        .back-to-top {
-            position: fixed;
-            display: none;
-            background-color: #00bfff;
-            color: #ffffff;
-            width: 45px;
-            height: 45px;
-            text-align: center;
-            line-height: 1;
-            font-size: 44px;
-            right: 15px;
-            bottom: 15px;
-            transition: background 0.3s;
-            z-index: 9;
-        }
-        
-        .back-to-top i {
-            color: #ffffff;
-        }
+  
 
-        .back-to-top i:hover {
-            color: black;
-        }
-
-        .faq{
-            min-height: 70vh;
-            width: 100vw;
-            text-align: center;
-            padding: 0 2rem;
-            background: url(../images/faq.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
         
-        .faq .row{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0 2rem;
-        }
         
-        .faq .row .accordion-container{
-            width: 50%;
-            text-align: left;
-        }
-
-        .faq .row .accordion{
-            margin-left: 1rem;
-            margin-right: 2rem;
-        }
-        
-        .faq .row .accordion-container .accordion .accordion-header{
-            background-color: #00bfff;
-            margin: 1rem 0;
-            box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
-            cursor: pointer;
-            margin-left: 1rem;
-            margin-right: 2rem;
-        }
-        
-        .faq .row .accordion-container .accordion .accordion-header span{
-            display: inline-block;
-            text-align: center;
-            height: 4rem;
-            width: 5rem;
-            line-height: 4rem;
-            font-size: 2rem;
-            background: #333;
-            color: #fff;
-            clip-path: polygon(0% 0%,75% 0%,100% 50%,75% 100%,0% 100%); 
-        }
-        
-        .faq .row .accordion-container .accordion .accordion-header h3{
-            display: inline;
-            color: #333;
-            font-weight: 400;
-            padding-left: .5rem;
-            font-size: 1.5rem;
-        }
-        
-        .faq .row .accordion-container .accordion .accordion-body{
-            padding: 1rem;
-            color: #444;
-            box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
-            background-color: #fff;
-            font-size: 1.3rem;
-            display: none;
-            margin-left: 1rem;
-            margin-right: 2rem;
-        }
-        
-@media (max-width: 1200px){
-    .faq{
-        min-height: 70vh;
-    }
-}        
 
 @media (max-width: 1000px){
     html{
@@ -1093,20 +963,7 @@ body{
         padding: 1rem 0;
     } 
 
-    .clients {
-        position: relative;
-        padding: 90px 0;
-        text-align: center;
-        margin-top: -15rem;
-        margin-bottom: -8rem;
-    }
-
-    .clients .section-header p {
-        padding-bottom: 10px;
-        margin-top: 2.5rem;
-        text-align: center;
-        font-size: 2rem;
-    }
+   
 
     .team{
         min-height: auto;
@@ -1254,17 +1111,5 @@ body{
             font-size: 30px;
         }
 
-        .faq{
-            padding: 0;
-            min-height: 60vh;
-        }
-    
-        .faq .row{
-            padding: 0 1.5rem;
-            flex-flow: column;
-        }
-    
-        .faq .row .accordion-container{
-            width: 100%;
-        }
+        
 }
